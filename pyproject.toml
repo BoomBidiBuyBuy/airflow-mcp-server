@@ -1,6 +1,8 @@
 [project]
-name = "airflow-mcp-server"
-version = "0.2.5"
+
+name = "mcp-server-apache-airflow"
+version = "0.2.7"
+
 description = "Model Context Protocol (MCP) server for Apache Airflow"
 authors = [
     { name = "Ruslan Galinskii", email = "galinskyifmo@gmail.com" }
@@ -56,7 +58,7 @@ include = [
 ]
 
 [tool.ruff]
-select = ["E", "W", "F", "B", "I"]
+lint.select = ["E", "W", "F", "B", "I"]
 line-length = 120
 
 [dependency-groups]
